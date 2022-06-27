@@ -8,10 +8,13 @@ namespace Lab03
 	private:
 		static const int stackSize = 10;
 		int stackArr[stackSize];
-		int stackIndex = 0;
+		int stackIndex{ -1 };
 
 	public:
-
+		//default constructor to initialize index of top stack to -1
+		MyStack();
+		bool pushStack(int number);
+		bool notFull(int const& stackIndex);
 	};
 
 
