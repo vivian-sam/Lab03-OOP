@@ -12,7 +12,6 @@ bool Lab03::MyStack::notFull(int const& stackIndex)
 	bool result = (stackIndex < 10) ? true : false; //returns true if stack's index is less than 10
 	
 	return result;
-	//Jack, come back
 }
 
 bool Lab03::MyStack::pushStack(int number)
