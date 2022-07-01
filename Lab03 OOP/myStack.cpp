@@ -26,3 +26,8 @@ bool Lab03::MyStack::pushStack(int number)
 
 	return false;
 }
+
+void popStack()
+{
+	stackIndex--;
+}
